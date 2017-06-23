@@ -1,0 +1,15 @@
+import java.lang.*;
+
+public class Main{
+	//main method
+	int a;
+	public static void main(String []args){
+		outWords();
+	}
+	/*lalal*/
+	@Autowired
+	public static void outWords(){
+		System.out.println("Hello,world!");
+		System.out.println(a++);
+	}
+}
